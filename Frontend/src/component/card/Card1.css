@@ -1,0 +1,15 @@
+.content {
+  font-weight: 200;
+  max-height: none;
+}
+.massage {
+  margin-bottom: 13px;
+  line-height: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0%;
+}

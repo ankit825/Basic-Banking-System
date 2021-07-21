@@ -1,0 +1,30 @@
+.example {
+  -webkit-columns: 6 150px;
+  -moz-columns: 6 150px;
+  columns: 6 150px;
+  -webkit-column-gap: 5em;
+  -moz-column-gap: 5em;
+  column-gap: 5em;
+  -webkit-column-rule-width: 1px;
+  -moz-column-rule-width: 1px;
+  column-rule-width: 1px;
+  -webkit-column-rule-color: #3cb1e7;
+  -moz-column-rule-color: #3cb1e7;
+  column-rule-color: #3cb1e7;
+  margin: 2em auto 7em;
+}
+.example-solid {
+  -webkit-column-rule-style: solid;
+  -moz-column-rule-style: solid;
+  column-rule-style: solid;
+}
+.hover08 figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover01 p a img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}

@@ -1,0 +1,4 @@
+.btn:link .btn:visited {
+  border: 1px grey;
+  border-radius: 200px;
+}
